@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47de3ac524b15a146b216c64e5d0b0b3, type: 3}
+  m_Name: Arjuna
+  m_EditorClassIdentifier: 
+  name: Arjuna
+  cards:
+  - {fileID: 11400000, guid: 96c1eeaa5b20ab94d99849556f5caf0b, type: 2}
+  - {fileID: 11400000, guid: 6eaf9ad3528cfa64ebb81279d899d5fb, type: 2}
+  - {fileID: 11400000, guid: bb4d65418365b0a4e8fdd292376a7b0b, type: 2}
