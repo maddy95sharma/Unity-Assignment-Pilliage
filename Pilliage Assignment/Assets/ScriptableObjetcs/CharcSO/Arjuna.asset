@@ -15,5 +15,6 @@ MonoBehaviour:
   name: Arjuna
   cards:
   - {fileID: 11400000, guid: 96c1eeaa5b20ab94d99849556f5caf0b, type: 2}
-  - {fileID: 11400000, guid: 6eaf9ad3528cfa64ebb81279d899d5fb, type: 2}
-  - {fileID: 11400000, guid: bb4d65418365b0a4e8fdd292376a7b0b, type: 2}
+  - {fileID: 11400000, guid: 0952974247ca5b94d8fcde26537869a4, type: 2}
+  - {fileID: 11400000, guid: 62fcfd86519be444bb7414c84afd1397, type: 2}
+  - {fileID: 11400000, guid: 249f0800c8e40634a8bdafef6484af5f, type: 2}

@@ -6,7 +6,7 @@ public class PlayerCardManager : MonoBehaviour
 {
     private static PlayerCardManager _instance;
     public static PlayerCardManager Instance {get { return _instance; } }
-    CardType card1Type, card2Type, card3Type, card4Type;
+    CardType card1Type, card2Type, card3Type;
     private Card card1, card2, card3, card4;
 
     [SerializeField]
@@ -22,6 +22,13 @@ public class PlayerCardManager : MonoBehaviour
     private bool _isCard4Played;
     public bool IsCard4Played{ get {return _isCard4Played; } }
 
+    void Start()
+    {
+        card1 = GameObject.Find("Card1").GetComponent<Card>();
+        card2 = GameObject.Find("Card2").GetComponent<Card>();
+        card3 = GameObject.Find("Card3").GetComponent<Card>();
+        card4 = GameObject.Find("Card4").GetComponent<Card>();
+    }
 
     public void OnCard1Played() {
         _isCard1Played = true;
@@ -37,11 +44,12 @@ public class PlayerCardManager : MonoBehaviour
         _isCard3Played = true;
         card3.gameObject.SetActive(false);
     }
+
+    public void OnCard4Played() {
+        _isCard4Played = true;
+        card4.gameObject.SetActive(false);
+    }
     
-    // public void OnCard4Played() {
-    //     _isCard4Played = true;
-    //     card4.gameObject.SetActive(false);
-    // }
     
     void Awake()
     {

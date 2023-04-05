@@ -20,7 +20,7 @@ public class CharacterSelector : MonoBehaviour
         CharcPanel.SetActive(false);
         playerCharc = characters[SeclectedCharc];
         Card[] cards = GetComponentsInChildren<Card> ();
-        for (int i =0; i<3; i++ )
+        for (int i =0; i<4; i++ )
         {
             cards[i].Initialize(playerCharc.cards[i]);
         }
